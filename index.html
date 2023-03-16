@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--    <base href="/">-->
+<!--    <base href="/">-->
 
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -14,10 +14,11 @@
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="icon" type="image/png" href="logo.ico"/>
 
     <!--loading 样式 -->
     <style type="text/css">
+    /* 初始动画 */
     .preloader {
       position: fixed;
       top: 0;
@@ -113,26 +114,13 @@
     .cs-loader-inner label:nth-child(1) {
       animation: lol 3s .5s infinite ease-in-out
     }
-
     </style>
 
-    <title>vms_flutter</title>
+    <title>OPTRAFFIC</title>
     <link rel="manifest" href="manifest.json">
 
 </head>
 <body>
-<!-- This script installs service_worker.js to provide PWA functionality to
-     application. For more information, see:
-     https://developers.google.com/web/fundamentals/primers/service-workers -->
-<!--<script>-->
-<!--    if ('serviceWorker' in navigator) {-->
-<!--      window.addEventListener('load', function () {-->
-<!--        navigator.serviceWorker.register('flutter_service_worker.js?v=1472885417');-->
-<!--      });-->
-<!--    }-->
-
-<!--</script>-->
-<!--<script src="main.dart.js" type="application/javascript"></script>-->
 <!--loading 标签-->
 <div id="app_splash">
     <div class="preloader">
@@ -152,26 +140,12 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
         document.getElementById("app_splash")?.remove();
-        navigator.serviceWorker.register('flutter_service_worker.js');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3108512971');
       });
     }
 </script>
 <script src="main.dart.js" type="application/javascript"></script>
-<!--<script>-->
-<!--    var scriptLoaded = false;-->
-<!--    function loadMainDartJs() {-->
-<!--      if (scriptLoaded) {-->
-<!--        return;-->
-<!--      }-->
-<!--      scriptLoaded = true;-->
-<!--      var scriptTag = document.createElement('script');-->
-<!--      scriptTag.src = 'main.dart.js';-->
-<!--      scriptTag.type = 'application/javascript';-->
-<!--      document.body.append(scriptTag);-->
-<!--    }-->
-<!--    loadMainDartJs();-->
 
 
-<!--</script>-->
 </body>
 </html>
