@@ -912,10 +912,10 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "288ded26d863c9e5fce5ad588f2a5f6e",
-"/": "288ded26d863c9e5fce5ad588f2a5f6e",
+"index.html": "d5cf1c22835eea3a49a3f35e05c50c76",
+"/": "d5cf1c22835eea3a49a3f35e05c50c76",
 "logo.ico": "41b8cde833b20b6f53e27d0eb81d66b7",
-"main.dart.js": "74e8ccaffdbdc4501bf26c4273301c33",
+"main.dart.js": "10f4e6d3c88b75d22a309f9167c93d09",
 "manifest.json": "b6c4ec1ea421877223ebd59d2f4b5858",
 "version.json": "8da47fa1e3b736c8753ec8288e34699a"
 };
